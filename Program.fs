@@ -10,6 +10,7 @@ let prob1 a b c =
   elif (b>=a && c>=a)&&(b>=(-46340) && b<=46340 && c>=(-46340) && c<=46340 && (c*c+b*b)>0) then (c*c+b*b)
   else -1
 
+
 /// Define a function `prob2` that takes in a string and returns a new string
 /// that ends with a newline character '\n'. The function appends a newline
 /// character to the given string only if the string does not already end with a
